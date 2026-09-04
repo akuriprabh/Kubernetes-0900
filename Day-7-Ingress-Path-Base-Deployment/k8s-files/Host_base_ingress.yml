@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: 908874107693.realhandsonlabs.net   # enter your host name
+    - host: 908874107693.realhandsonlabs.net   # enter your host name and works with your host only. Load balancer DNS will not work
       http:
         paths:
           - path: /
